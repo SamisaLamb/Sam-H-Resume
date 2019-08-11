@@ -1,0 +1,229 @@
+/* color palette
+----------------------*/
+
+/* RGB */
+$color1: rgba(218, 255, 239, 1);
+$color2: rgba(208, 255, 214, 1);
+$color3: rgba(213, 226, 188, 1);
+$color4: rgba(166, 151, 156, 1);
+$color5: rgba(211, 192, 210, 1);
+
+$color1: rgba(208, 255, 249, 1);
+$color4: rgba(176, 151, 156, 1);
+$color5: rgba(230, 192, 210, 1);
+
+/* Global styles
+-----------------------*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: #859ca0;
+    color: black;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    }
+
+h1, h2 { font-family: 'Cabin', sans-serif;
+}
+
+h1 { font-size: 70px; 
+}
+
+h2 { font-size: 35px;
+    margin-top: 0; 
+    margin-bottom: 0px;
+}
+
+h3{ margin: 30px 0 0 0;    
+}
+
+a { background: none;
+    color: greenyellow;/*#488286;*/
+    text-decoration: none;
+}
+
+a: hover {
+        font-weight: bolder;
+    /*background-color: palevioletred; rgba(176, 151, 156, 1);#9e8b91;*/
+    }
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: hidden;
+}
+
+.Ucase{ text-transform: uppercase;
+}
+
+/* Download Button
+------------------------*/
+.btn { text-decoration: none;
+    color: white;
+    background-color: palevioletred;/*rgba(211, 192, 210, 1);*/
+    display: inline-block;
+    padding: 10px;
+    }
+
+h4 { margin: 11px auto;   
+}
+
+p { line-height: 1.5; 
+    margin: 11 0 0 0;
+}
+
+h5 { margin: 0;
+    font-size: 20px;
+}
+
+
+
+/* Header and Footer
+------------------------*/
+
+header, footer { background-color: #23F0C7;/*rgba(218, 255, 239, 1);#373e40;*/
+    color: /*#e86ba6 */#FFE347/*rgba(315, 197, 214, 20);/*#d1abcf;#c9a5c7;#488286;*/
+}
+
+header h1, 
+header h2 { color:rgba(176, 151, 156, 1); ;/*#9e8b91;#b7d5d4;*/
+ margin: 0; 
+}
+
+
+/* Header 
+--------*/
+
+.prof-pic { border-radius: 49%;
+            padding-left: 26px;
+}
+
+header{ font-weight:800;
+    padding-top: 50px;
+    position: relative;
+}
+
+.download { position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* Footer 
+----------*/
+
+footer { text-align:center;
+}
+
+.content-info a {
+    /*margin: 20px;*/
+    padding: 15px;
+    display: inline-block;
+    font-size: 25px;
+ }
+
+
+/* Navigation
+------------------------*/
+
+nav {
+  background-color: #7D7ABC;
+  margin-bottom: 5px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    font-weight: bold;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+
+/* Work Experience
+------------------------*/
+
+.work { background-color: rgba(213, 226, 188, 1);/*#b7d5d4;*/   
+}
+
+h3 ~ p { margin:0;  
+}
+
+.job-description{ margin-bottom: 25px;
+}
+
+.job-description p:first-of-type {
+  margin-top: 30px;
+}
+
+.training{ margin: 5px auto;
+    
+}
+/* Education
+------------------------*/
+
+.courses { margin: 5px auto;
+ }
+
+.education {background: linear-gradient(rgba(253, 243, 243, .46),
+                 rgba(201, 176, 181, .41)),/*rgba(176, 151, 156, .16),
+                 rgba(176, 151, 156, .86)),*/
+                 url(../images/mountaintop-education.jpg) no-repeat fixed; 
+background-size: cover;
+}/*color:rgba(176, 151, 156, 1); #488286;*/
+
+p + h3 { 
+margin-top: 30px;
+}
+
+
+
+/* Media Queries
+------------------------*/
+
+@media (min-width: 866px) {
+    .col-narrow { width:30%;
+    float: left;
+    margin:0;
+}
+
+.col-wide { width: 69%;
+    float: left;
+    padding-left: 2px;
+    margin: 0;
+}
+    
+ .padding{ padding-left:241px;
+    margin-top:248px;
+    margin-left:92px;
+}   
+}
+
+@media (max-width: 865px){
+  header {
+    text-align: center;
+  }
+  .prof-pic {
+    width: 190px;
+      height: 190px;
+  }
+
+}
+
+
+
+/*rgba(250, 250, 250, .46),
+                 rgba(176, 151, 156, .46))*/
