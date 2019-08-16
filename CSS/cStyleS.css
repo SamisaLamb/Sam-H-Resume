@@ -14,9 +14,11 @@ $color5: rgba(230, 192, 210, 1);
 /*rework*/
 $prussianblue: #003049;
 $dutchwhite: #eae2b7;
+$jasper: #d64242; rgba(214, 66, 66, 0.6)
 $amaranthred: #d62828;
 $maximumyellowred: #fcbf49;
 $utorange: #f77f00;
+$darkcerulen: #004f7a;
 $usafablu: #005482;
 
 
@@ -186,7 +188,7 @@ footer { text-align:center;
 ------------------------*/
 
 nav {
-  background-color: #005482;/*#004870;/*#7D7ABC;*/
+  background-color: #004f7a;/*#005482;/*#004870;/*#7D7ABC;*/
   margin-bottom: 5px;
   text-align: center;
   position: fixed;
@@ -229,7 +231,8 @@ h3 ~ p { margin:0;
 .courses { margin: 5px auto;
  }
 
-.education {background: linear-gradient(rgba(253, 243, 243, .46),
+.education {
+    background: linear-gradient(rgba(214, 66, 66, 0.2), rgba(214, 66, 66, 0.36)),/*linear-gradient(rgba(253, 243, 243, .46),
                  rgba(201, 176, 181, .41)),/*rgba(176, 151, 156, .16),
                  rgba(176, 151, 156, .86)),*/
                  url(../images/mountaintop-education.jpg) no-repeat fixed;
