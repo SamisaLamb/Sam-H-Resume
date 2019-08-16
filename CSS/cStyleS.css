@@ -46,7 +46,7 @@ body {
       min-width: 125px;
       max-width: 100%;
       border-radius: 55%;
-      height: auto;
+
     }
 
 h1, h2 {
@@ -151,15 +151,14 @@ header h2 {color:#003049; /*rgba(176, 151, 156, 1);/*#9e8b91;#b7d5d4;*/
 --------*/
 
 .prof-pic {
-  padding-left: 26px;
-  padding-right: 26px;
+  padding-left: 2px;
+  padding-right: 2px;
   flex-basis: 270px;
   flex-shrink: 4;
-
 }
 
 
-header{ font-weight:800;
+header { font-weight:800;
     padding-top: 50px;
     position: relative;
 }
@@ -265,28 +264,43 @@ margin-top: 30px;
  .padding{ padding-left:241px;
     margin-top:248px;
     margin-left:92px;
-}
-}
-@media (max-width:630px) {
-   .container{
-      grid-template-columns: 1fr;
-}
+ }
 }
 
- @media(max-width:800px) {
-   header {
-     text-align: center;
+@media (max-width:630px) {
+   .container {
+      grid-template-columns: 1fr;
+    }
+}
+
+ @media(max-width: 800px) {
+   .heading {
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content: space-around;
    }
-   .heading {flex-wrap: wrap;
-   justify-content: space-around;}
    .prof-pic {
      order: -1;
-     max-width: 165px;
-   }
+     }
 
  }
 
+@media (min-width: 725px) {
+  .heading {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: left;
+  }
+}
 
+@media (max-width: 725px) {
+  .prof-pic {
+    max-width: 165px;
+  }
+  img {
+    height:auto;
+  }
+}
 
 /*rgba(250, 250, 250, .46),
                  rgba(176, 151, 156, .46))*/
