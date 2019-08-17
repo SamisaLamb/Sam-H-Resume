@@ -20,6 +20,11 @@ $maximumyellowred: #fcbf49;
 $utorange: #f77f00;
 $darkcerulen: #004f7a;
 $usafablu: #005482;
+$middlegreen: #499f68;
+$parisgreen: #52b275;
+$silver: #c2c5bb;
+$ashgray: #bcbfb5;
+
 
 
 
@@ -106,7 +111,7 @@ a: hover {
 .btn {
    text-decoration: none;
    color: white;
-   background-color: palevioletred;/*rgba(211, 192, 210, 1);*/
+   background-color: #bcbfb5;/*rgba(211, 192, 210, 1);*/
    display: inline-block;
    padding: 10px;
     }
