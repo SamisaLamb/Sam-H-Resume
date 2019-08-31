@@ -28,10 +28,8 @@ $shinyshamrock: #4eaa70;
 $iguanagreen: #72aa86;
 
 
-
-
 /* Global styles
------------------------*/
+-------------*/
 
 html {
   box-sizing: border-box;
@@ -76,14 +74,13 @@ h3 {
 
 a {
    background: none;
-   color: #f77f00;/*greenyellow;/*#488286;*/
+   color: #f77f00;
    text-decoration: none;
 }
 
 a: hover {
     font-weight: bolder;
   }
-/*background-color: palevioletred; rgba(176, 151, 156, 1);#9e8b91;*/
 
 .content-wrap {
   max-width: 950px;
@@ -108,7 +105,7 @@ a: hover {
 
 
 /* Download Button
-------------------------*/
+-------------*/
 
 .btn {
    text-decoration: none;
@@ -134,7 +131,7 @@ h5 {
 
 
 /* Header and Footer
-------------------------*/
+-------------*/
 
 .heading {
   display: flex;
@@ -144,18 +141,20 @@ h5 {
   flex-basis: 530px;
 }
 
-header, footer { background-color:#eae2b7; /* #23F0C7;/*rgba(218, 255, 239, 1);#373e40;*/
-    color: #d62828;/*#FFE347;/*#e86ba6 *//*rgba(315, 197, 214, 20);/*#d1abcf;#c9a5c7;#488286;*/
+header, footer {
+  background-color:#eae2b7;
+  color: #d62828;
 }
 
 header h1,
-header h2 {color:#003049; /*rgba(176, 151, 156, 1);/*#9e8b91;#b7d5d4;*/
- margin: 0;
+header h2 {
+  color:#003049;
+  margin: 0;
 }
 
 
 /* Header
---------*/
+-------------*/
 
 .prof-pic {
   padding-left: 2px;
@@ -164,22 +163,24 @@ header h2 {color:#003049; /*rgba(176, 151, 156, 1);/*#9e8b91;#b7d5d4;*/
   flex-shrink: 4;
 }
 
-
-header { font-weight:800;
-    padding-top: 50px;
-    position: relative;
+header {
+  font-weight:800;
+  padding-top: 50px;
+  position: relative;
 }
 
-.download { position: absolute;
-    right: 0;
-    bottom: 0;
+.download {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 
 /* Footer
-----------*/
+-------------*/
 
-footer { text-align:center;
+footer {
+  text-align:center;
 }
 
 .content-info a {
@@ -191,10 +192,10 @@ footer { text-align:center;
 
 
 /* Navigation
-------------------------*/
+-------------*/
 
 nav {
-  background-color: #004f7a;/*#005482;/*#004870;/*#7D7ABC;*/
+  background-color: #004f7a;
   margin-bottom: 5px;
   text-align: center;
   position: fixed;
@@ -213,15 +214,18 @@ nav a {
 
 
 /* Work Experience
-------------------------*/
+-------------*/
 
-.work { background-color: #fcbf49;/*rgba(213, 226, 188, 1);/*#b7d5d4;*/
+.work {
+  background-color: #fcbf49;
 }
 
-h3 ~ p { margin:0;
+h3 ~ p {
+  margin:0;
 }
 
-.job-description{ margin-bottom: 25px;
+.job-description {
+  margin-bottom: 25px;
 }
 
 .job-description p:first-of-type {
@@ -229,18 +233,18 @@ h3 ~ p { margin:0;
 }
 
 .training{ margin: 5px auto;
-
 }
-/* Education
-------------------------*/
 
-.courses { margin: 5px auto;
+
+/* Education
+-------------*/
+
+.courses {
+  margin: 5px auto;
  }
 
 .education {
-    background: linear-gradient(rgba(214, 66, 66, 0.2), rgba(214, 66, 66, 0.36)),/*linear-gradient(rgba(253, 243, 243, .46),
-                 rgba(201, 176, 181, .41)),/*rgba(176, 151, 156, .16),
-                 rgba(176, 151, 156, .86)),*/
+    background: linear-gradient(rgba(214, 66, 66, 0.2), rgba(214, 66, 66, 0.36)),
                  url(../images/mountaintop-education.jpg) no-repeat fixed;
 background-size: cover;
 }/*color:rgba(176, 151, 156, 1); #488286;*/
