@@ -5,6 +5,10 @@
 *.so
 *.dylib
 
+#image files
+# *.jpg
+
+
 #just a change to commit
 # Test binary, built with `go test -c`
 *.test
