@@ -48,8 +48,11 @@ body {
     }
 
 img {
-  min-width: 125px;
-  max-width: 100%;
+  display: block;
+  max-height: 200px;
+  max-width: 200px;
+  height:auto;
+  width:auto;
   border-radius: 55%;
   }
 
@@ -320,8 +323,25 @@ p + h3 {
  .prof-pic {
    order: -1;
      }
- }
+}
 
+@media (max-width: 903px) {
+  img {
+    max-width: 175px;
+  }
+}
+
+@media (max-width: 607px) {
+  img {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 489px) {
+  img {
+    max-width: 130px;
+  }
+}
 @media (min-width: 725px) {
  .heading {
    flex-wrap: wrap;
@@ -336,6 +356,6 @@ p + h3 {
   }
 
   img {
-   height:auto;
+
   }
 }
